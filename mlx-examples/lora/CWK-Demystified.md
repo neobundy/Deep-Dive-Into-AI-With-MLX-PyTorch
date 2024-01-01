@@ -102,13 +102,13 @@ Here's a simple explanation of each part:
 
 - `sqrt(d_k)` is the square root of the dimension of the key vectors (`d_k`). This scaling factor is used to prevent the dot product results from growing too large, which could cause the softmax function to have extremely small gradients. This is particularly important when dealing with large input sequences.
 
-- `softmax(QK^T / sqrt(d_k))` applies the softmax function to the scaled dot product scores. This normalizes the scores so they sum to 1, and can be interpreted as probabilities.
+- `softmax(QK^T / sqrt(d_k))` applies the softmax function to the scaled dot product scores. This normalizes the scores, so they sum to 1, and can be interpreted as probabilities.
 
 - `softmax(QK^T / sqrt(d_k))V` is the weighted sum of the value vectors, where the weights are the softmax-normalized scores. This produces the output of the attention mechanism.
 
 Why the transpose operations? 
 
-Transposition is a fundamental operation in linear algebra that is used extensively in macnine learning. Transposition is the operation of swapping the rows and columns of a matrix. If you have a matrix A, the transpose of A (denoted as A^T) is a new matrix where the row i in A becomes column i in A^T.
+Transposition is a fundamental operation in linear algebra that is used extensively in machine learning. Transposition is the operation of swapping the rows and columns of a matrix. If you have a matrix A, the transpose of A (denoted as A^T) is a new matrix where the row i in A becomes column i in A^T.
 
 When you want to perform a dot product operation between two tensors (or matrices) with different shapes, you often need to transpose one of them to align their dimensions correctly. 
 

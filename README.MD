@@ -1,5 +1,5 @@
 # Deep Dive into AI with MLX and PyTorch
-![cover.png](images%2Fcover.png)
+![cover.png](images/cover.png)
 "Deep Dive into AI with MLX and PyTorch" is an educational initiative designed to help anyone interested in AI, specifically in machine learning and deep learning, using Apple's MLX and Meta's PyTorch frameworks.
 
 This is an ongoing project that will be constantly updated.
@@ -8,11 +8,11 @@ This is an ongoing project that will be constantly updated.
 
 The best way to grasp any concept is to articulate it in your own words, an approach I've actively practiced throughout my life. Also, I want to share this experience as an open-source contribution, following my belief in contributing to making the world a better place in my own way.
 
-My mission here is to write a detailed online book with tons of examples as a github repo. Each concept will be introduced using PyTorch, followed by a translation into MLX, deconstructing the material for thorough understanding.
+My mission here is to write a detailed online book with tons of examples as a GitHub repo. Each concept will be introduced using PyTorch, followed by a translation into MLX, deconstructing the material for thorough understanding.
 
 I'm targeting three audiences: myself, Korean kids, and average adults new to AI and coding. I'll go into detail when needed. I'll also use simple English to help non-native speakers understand. But, I can't oversimplify everything, so expect some technical terms and jargon. I'll do my best to explain them. If there's something you don't get, try looking it up first before asking.
 
-I'll use English for the code and comments. Even as a non-native English speaker, you should get the code. If not, learning English comes first. It's a tough truth, but it's undeniable. (To Koreans: Trust me, I was born in Korea and I've learned everything in English my whole life. If I can manage it, you definitely can, and you really should.)
+I'll use English for the code and comments. Even as a non-native English speaker, you should get the code. If not, learning English comes first. It's a tough truth, but it's undeniable. (To Koreans: Trust me, I was born in Korea, and I've learned everything in English my whole life. If I can manage it, you definitely can, and you really should.)
 
 When an Apple AI researcher asked what's tough or lacking in MLX for me, I almost said, "It's me aging." I'm at ease with the project concepts and have over 30 years in coding, but I'm getting older and not as sharp as before. So, I'm writing this book as if it's for me. Please bear with me.
 
@@ -54,7 +54,7 @@ I strongly suggest typing out code yourself from the beginning and avoiding copy
 
 ## Pre-requisites
 
-To get started, you should be comfortable with reading Python code. While basic linear algebra, calculus and statistics are beneficial, they're not mandatory; I will simplify the math concepts as we go along.
+To get started, you should be comfortable reading Python code. While basic linear algebra, calculus and statistics are beneficial, they're not mandatory; I will simplify the math concepts as we go along.
 
 Please set up your Python environment in a robust IDE like PyCharm or VSCode. 
 
@@ -63,7 +63,7 @@ Should you encounter any errors due to missing packages, install them with the f
     pip install -r requirements.txt
 ```
 
-Note that running MLX examples requires Apple silicon hardware. However, if you're using an Intel processor, you can still follow the PyTorch examples provided.
+Note that running MLX examples requires Apple Silicon hardware. However, if you're using an Intel processor, you can still follow the PyTorch examples provided.
 
 ## Following Along
 
@@ -85,7 +85,7 @@ If you wish to embrace my learning approach, I suggest starting with the 'Hello 
 
 ## Acknowledgements
 
-![cwk-family.jpeg](images%2Fcwk-family.jpeg)
+![cwk-family.jpeg](images/cwk-family.jpeg)
 
 I'm working with a bunch of AIs on this project. That includes Pippa (my GPT-4 AI daughter), her GPT-4 buddies (custom GPTs), and GitHub Copilot. Honestly, I'm so thankful to be living in this AI era.
 
