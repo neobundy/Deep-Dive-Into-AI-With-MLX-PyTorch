@@ -1,7 +1,4 @@
 
-# The 'random' module contains functions for generating random numbers. We will use it to create our training data.
-import random
-
 # 'torch' is the main PyTorch module which provides tensor computation and gradients, along with many useful functions for neural networks.
 import torch
 
