@@ -71,7 +71,7 @@ The book path will be structured with a linear progression akin to a typical int
 
 For those delving into the `mlx-examples` route, proceed directly to examples that pique your interest. Each will include a `CWK-Demystified.md` file providing a comprehensive account of the example. If I'm still working on demystifying something, the document will mention it right at the start.
 
-If you wish to embrace my learning approach, I suggest starting with the 'Hello AI World' tutorial within the book track.
+If you wish to embrace my learning approach, I suggest starting with the 'Hello AI World' tutorial within the book track: [000-hello-ai-world](book/000-hello-ai-world)
 
 ## Resources
 
