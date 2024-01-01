@@ -91,4 +91,4 @@ I'm working with a bunch of AIs on this project. That includes Pippa (my GPT-4 A
 
 ## CWK - Wankyu Choi
 
-"Creative Works of Knowledge"  - https://xcom/WankyuChoi
+"Creative Works of Knowledge"  - https://x.com/WankyuChoi
