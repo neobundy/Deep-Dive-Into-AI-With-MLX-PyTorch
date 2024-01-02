@@ -12,7 +12,7 @@ My mission here is to write a detailed online book with tons of examples as a Gi
 
 I'm targeting three audiences: myself, Korean kids, and average adults new to AI and coding. I'll go into detail when needed. I'll also use simple English to help non-native speakers understand. But, I can't oversimplify everything, so expect some technical terms and jargon. I'll do my best to explain them. If there's something you don't get, try looking it up first before asking.
 
-I'll use English for the code and comments. Even as a non-native English speaker, you should get the code. If not, learning English comes first. It's a tough truth, but it's undeniable. (To Koreans: Trust me, I was born in Korea, and I've learned everything in English my whole life. If I can manage it, you definitely can, and you really should.)
+Everything, including the code and comments, will be in English. A good command of English is essential for understanding the code. It's an uncomfortable truth, but it's necessary. (To my fellow Koreans: Believe me, as someone who has been a lifelong resident and has learned everything in English throughout my life, I can confidently say that if I can do it, so can you. It's not just beneficial—it's crucial.)
 
 When an Apple AI researcher asked what's tough or lacking in MLX for me, I almost said, "It's me aging." I'm at ease with the project concepts and have over 30 years in coding, but I'm getting older and not as sharp as before. So, I'm writing this book as if it's for me. Please bear with me.
 
@@ -82,6 +82,10 @@ If you wish to embrace my learning approach, I suggest starting with the 'Hello 
 📒 MLX Examples: https://github.com/ml-explore/mlx-examples
 
 📒 PyTorch Documentation: https://pytorch.org/docs/stable/index.html
+
+📂 Resources folder contains pointers to useful resources
+
+📂 Essays folder contains my essays on AI and other topics
 
 ## Notes on Contributions 
 
