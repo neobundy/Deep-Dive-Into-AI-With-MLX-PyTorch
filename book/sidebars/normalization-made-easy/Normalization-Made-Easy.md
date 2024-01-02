@@ -81,11 +81,11 @@ print(log_normalized_data) # [0.69314718 2.39789527 4.61512052 6.90875478 9.2104
 
 Normalization is a common technique in many fields. Here are some examples:
 
-1. **Image Normalization**: This makes the range of pixel values more consistent. For example, pixel values range from 0 to 255, but we might transform them to fall between 0 and 1. This helps in processing the image more efficiently and helps algorithms work better because data is more standardized.
+1. **Image Normalization**: This makes the range of pixel values more consistent. For example, pixel values range from 0 to 255, but we might transform them to fall between 0 and 1. This helps in processing the image more efficiently and helps algorithms work better because data is more standardized. We will be looking at Stable Diffusion codebase in the future, which uses this technique in a number of places.
 
-2. **Audio Normalization**: This is all about adjusting the volume. So if you have a playlist of music and one song is too quiet while another is really loud, normalization can bring all songs to a similar volume level. It can also help to reduce noise and improve the overall quality of the audio.
+2. **Audio Normalization**: This is all about adjusting the volume. So if you have a playlist of music and one song is too quiet while another is really loud, normalization can bring all songs to a similar volume level. It can also help to reduce noise and improve the overall quality of the audio. Whenever I use compressors in my music production, I am using normalization. Do you play guitar? If so, you might have used a compressor pedal to normalize the volume of your guitar.
 
-3. **Video Normalization**: Similar to audio, but it's not just about volume—it includes adjusting color and brightness too. So, if you've got a bunch of videos that were all shot in different settings, video normalization can make them look more consistent in terms of lighting, contrast, and colors.
+3. **Video Normalization**: Similar to audio, but it's not just about volume—it includes adjusting color and brightness too. So, if you've got a bunch of videos that were all shot in different settings, video normalization can make them look more consistent in terms of lighting, contrast, and colors. Next time you are editing a video, you might want to use this technique.
 
 4. **Temperature Normalization**: Suppose you're analyzing weather data from different countries, but the temperature readings are in different units - some in Celsius (°C) and others in Fahrenheit (°F). By converting all temperature readings, it becomes straightforward to compare and analyze this data. For instance, if you're studying global warming trends, normalizing data to a single scale (Celsius or Fahrenheit) ensures consistency and accuracy in your analysis.
 
