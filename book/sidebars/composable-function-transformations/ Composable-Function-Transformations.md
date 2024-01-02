@@ -21,7 +21,7 @@ It is stated in the official documentation:
     The design of MLX is inspired by frameworks like PyTorch, Jax, and ArrayFire. A noteable difference from these frameworks and MLX is the unified memory model. Arrays in MLX live in shared memory. Operations on MLX arrays can be performed on any of the supported device types without performing data copies. Currently supported device types are the CPU and GPU.
 
 
-As shown in the  [hello-ai-world-mlx.py](../000-hello-ai-world/hello-ai-world-mlx.py) example
+As shown in the  [hello-ai-world-mlx.py](../../000-hello-ai-world/hello-ai-world-mlx.py) example
 MLX is different in how gradients are computed. Unlike PyTorch, where you typically compute the gradients by calling the `backward()` method on a loss tensor, MLX uses a different approach that is similar to JAX. In MLX, you use the `value_and_grad` function to create a new function that, when called, computes both the value of the original function and its gradient with respect to its parameters. This is what is meant by "composable function transformations".
 
 PyTorch:
@@ -119,6 +119,6 @@ for epoch in range(num_epochs):
         print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item():.5f}')
 ```
 
-For the benefits of vectorized computation, refer to the [Vectorized_Computation.md](Vectorized_Computation.md) sidebar.
+For the benefits of vectorized computation, refer to the [Vectorized_Computation.md](../vectorized-computation/Vectorized_Computation.md) sidebar.
 
 As evident, the principles of inheritance and polymorphism from object-oriented programming can be metaphorically applied to enhance your learning experience. Embracing this essence of object orientation in your daily life encourages you to build upon previous knowledge and adapt it flexibly to new contexts.
