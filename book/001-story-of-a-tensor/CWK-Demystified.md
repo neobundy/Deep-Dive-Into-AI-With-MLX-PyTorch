@@ -124,6 +124,7 @@ To encapsulate these subtle semantic distinctions, we must harness the power of 
 Pop quiz: What would be the values of X in the following equations?
 
 👉 The US - Washington = South Korea - X
+
 👉 Tokyo - Japan = Paris - X
 
 Note that the model is not supposed to know the concepts of countries and capitals. It's supposed to figure out the relationship between the words and use that to find the answer. If the model is well-trained, it should be able to figure out that the answers are 'Seoul' and 'France,' respectively.
