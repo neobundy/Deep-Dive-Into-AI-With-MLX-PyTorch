@@ -44,7 +44,7 @@ Sharing this journey openly fits right in with my passion for contributing and g
 
 ## Why Not TensorFlow?
 
-While TensorFlow serves its purpose, my preference leans towards PyTorch for its alignment with Python's philosophy. When necessary, examples incorporating TensorFlow will be provided.
+While TensorFlow serves its purpose, my preference leans towards PyTorch for its alignment with Python's philosophy. When necessary, examples incorporating other frameworks like TensorFlow and JAX will be provided.
 
 ## The Case Against Notebooks
 
@@ -72,6 +72,12 @@ The book path will be structured with a linear progression akin to a typical int
 For those delving into the `mlx-examples` route, proceed directly to examples that pique your interest. Each will include a `CWK-Demystified.md` file providing a comprehensive account of the example. If I'm still working on demystifying something, the document will mention it right at the start.
 
 If you wish to embrace my learning approach, I suggest starting with the 'Hello AI World' tutorial within the book track: [000-hello-ai-world](book/000-hello-ai-world)
+
+## Navigating 'WIP or Work in Progress' Sections
+
+Please refrain from reading sections labeled 'WIP' or 'Work in Progress.' This designation indicates that I am actively refining these parts. Once I have fully developed the content and removed the 'WIP' label, it will be ready for you. Delving into these sections prematurely may lead to misunderstandings or confusion due to their unfinished and unpolished state.
+
+Therefore, I kindly ask for your patience and to hold off on reading these sections until the 'WIP' tag is no longer present.
 
 ## Resources
 

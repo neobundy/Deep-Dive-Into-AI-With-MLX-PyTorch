@@ -1,4 +1,4 @@
-# Chapter 1 - The Story of a Tensor - Work in Progress
+# Chapter 1 - The Story of a Tensor - WIP
 
 ![story-of-a-tensor.png](story-of-a-tensor.png)
 
