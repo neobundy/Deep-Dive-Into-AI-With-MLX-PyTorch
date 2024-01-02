@@ -49,7 +49,7 @@ MLX:
 
 ```
 
-In this line, `nn.value_and_grad(model, loss_fn)` returns a new function `loss_and_grad_fn`. When you call this function with some inputs, it computes both the value of loss_fn and its gradients with respect to the parameters of model. This approach is more functional and composable, as it allows you to create complex functions by combining simpler ones, and automatically computes gradients for you.
+In this line, `nn.value_and_grad(model, loss_fn)` returns a new function `loss_and_grad_fn`. When you call this function with some inputs, it computes both the value of `loss_fn` and its gradients with respect to the parameters of model. This approach is more functional and composable, as it allows you to create complex functions by combining simpler ones, and automatically computes gradients for you.
 
 The term "composable" in this context refers to the ability to combine simple functions to create more complex ones. This is a key feature of functional programming.  In the context of MLX and similar libraries like JAX, "composable function transformations" means that you can take a function that computes some value (like a loss function), and easily create a new function that computes both the value and its gradients. This is done using the `value_and_grad` function.
 
@@ -96,7 +96,7 @@ results = df_jit_vectorized(x_values)
 print(results)
 ```
 
-In this example, `df_jit_vectorized` is a composition of multiple transformations: it computes the gradient of f, compiles this computation for better performance, and then vectorizes it to apply over an array of inputs. When you run this, you'll get the gradients of f evaluated at each point in x_values, with the whole computation being efficiently executed.
+In this example, `df_jit_vectorized` is a composition of multiple transformations: it computes the gradient of f, compiles this computation for better performance, and then vectorizes it to apply over an array of inputs. When you run this, you'll get the gradients of f evaluated at each point in `x_values`, with the whole computation being efficiently executed.
 
 This demonstrates the power and elegance of composable transformations, enabling complex operations to be written in a concise and readable manner.
 
@@ -119,7 +119,6 @@ for epoch in range(num_epochs):
         print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item():.5f}')
 ```
 
-For the benefits of vetorized computation, refer to the [Vectorized_Computation.md](Vectorized_Computation.md) sidebar.
-
+For the benefits of vectorized computation, refer to the [Vectorized_Computation.md](Vectorized_Computation.md) sidebar.
 
 As evident, the principles of inheritance and polymorphism from object-oriented programming can be metaphorically applied to enhance your learning experience. Embracing this essence of object orientation in your daily life encourages you to build upon previous knowledge and adapt it flexibly to new contexts.
