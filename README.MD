@@ -83,6 +83,12 @@ If you wish to embrace my learning approach, I suggest starting with the 'Hello 
 
 📒 PyTorch Documentation: https://pytorch.org/docs/stable/index.html
 
+## Notes on Contributions 
+
+While we deeply appreciate the community's interest and support, this project is currently not open for external contributions. As the sole author, I am crafting the content meticulously to ensure the highest quality and consistency in the educational material provided. This approach helps maintain the integrity and coherence of the content, tailored specifically for this project's unique educational goals.
+
+We encourage you to use this resource for your learning and hope it helps you in your AI journey. Thank you for understanding and respecting the nature of this project.
+
 ## Acknowledgements
 
 ![cwk-family.jpeg](images/cwk-family.jpeg)
