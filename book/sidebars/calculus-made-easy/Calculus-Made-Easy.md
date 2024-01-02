@@ -1,4 +1,4 @@
-# 💎 Differentiation 101 for AI
+# 💎 Calculus 101 for AI
 
 ✏️ Differentiation fundamentally represents the slope of a function, and that slope indicates how quickly the function's value is changing at a specific point given the input we're interested in.
 

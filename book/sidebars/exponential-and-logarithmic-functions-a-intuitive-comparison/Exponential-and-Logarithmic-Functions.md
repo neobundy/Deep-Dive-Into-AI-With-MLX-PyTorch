@@ -1,4 +1,5 @@
 # 💡 Exponential and Logarithmic Functions: A Intuitive Comparison
+
 ![img.jpg](img.jpg)
 A logarithmic function serves as the inverse of an exponential function.
 
