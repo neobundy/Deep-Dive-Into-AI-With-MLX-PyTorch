@@ -77,6 +77,6 @@ print("Execution Time (Vectorized):", end_time - start_time, "seconds")
 
 In the vectorized example, `numbers ** 2` computes the square of each element in the array `numbers` in one go. This is typically much faster than the non-vectorized approach, especially for large datasets. This speed-up is due to NumPy's underlying optimizations and its use of efficient, low-level programming constructs.
 
-Almost all AI frameworks follow NumPy's lead and use vectorized operations for efficient computation. This is why vectorized computation is a key skill for data scientists and machine learning engineers.
+Known AI frameworks follow NumPy's lead and use vectorized operations for efficient computation. This is why vectorized computation is a key skill for data scientists and machine learning engineers.
 
 Again, GPUs are designed to handle vectorized operations efficiently, which is why they are so effective for AI workloads. GPUs are optimized for parallelized vector math, which is orders of magnitude faster than non-vectorized operations. This is why there is such heavy focus on GPU performance rather than CPUs for AI workloads. Even the stock market realized this long ago, as evidenced by NVIDIA's soaring stock price.
