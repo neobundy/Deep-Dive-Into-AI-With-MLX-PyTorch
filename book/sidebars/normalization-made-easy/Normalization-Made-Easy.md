@@ -1,5 +1,5 @@
 # Normalization Made Easy
-
+![img.png](img.png)
  Imagine you and your friends are comparing the scores from different video games. But each game scores differently—one might score out of 100, another out of 10,000. It would be hard to compare scores directly, right?
 
 Normalization is like converting all these scores to a common scale, say 0 to 100. This way, it's easier to see who did well overall, regardless of the game. In computing and data analysis, we do this to make data from different sources or scales more comparable and easier to work with. It's like making sure everyone is speaking the same language in data! 
@@ -123,6 +123,5 @@ Later, if you want to know the original length of a ribbon in inches, you take t
 In summary, normalization (using division) is about bringing different things to a common, comparable scale, and denormalization (using multiplication) is about returning them to their original scale. This concept is especially useful in programming and data analysis to make sense of varied and wide-ranging data.
 
 When examining any code, the presence of a division operation should prompt thoughts of normalization, while a multiplication operation should suggest denormalization.
-
 
 
