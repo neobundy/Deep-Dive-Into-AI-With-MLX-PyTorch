@@ -1,4 +1,4 @@
-# Chapter 1 - The Story of a Tensor
+# Chapter 1 - The Story of a Tensor - Work in Progress
 
 Once upon a time, in the whimsical land of Computaria, there lived a happy little Tensor named Tenny. Tenny was no ordinary figure; he was a magical bundle of numbers with the power to shape the world of Artificial Intelligence (AI).
 
