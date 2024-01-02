@@ -55,7 +55,7 @@ a = b * 255
 print(a) # 255.0
 ```
 
-## Why log normalization?
+## Why Log Normalization?
 
 Think of logarithms like a magical magnifying glass. When numbers in your data are really big and have huge differences between them (like one number being 1 and another being 1,000,000), it's hard to compare them or see patterns.
 
@@ -114,7 +114,7 @@ Imagine a neural network learning to predict house prices based on features like
 - Numerical Stability: Deep learning models, especially those with many layers (deep networks), are sensitive to the scale of input data. Normalization helps maintain numerical stability, reducing the chances of encountering issues like vanishing (too small) or exploding gradients (too large).
 - Consistent Data Distribution: Normalization ensures that the input data distribution remains consistent across different batches or epochs during training. This consistency is crucial for the model to learn effectively.
 
-## Understanding Normalization in Everyday Life
+## Practicing Normalization in Everyday Life
 
 Imagine you're measuring the lengths of various ribbons. Some are just a few inches long, while others are many feet long. To compare them easily, you decide to convert (normalize) all these measurements to feet. You do this by dividing each ribbon's length in inches by 12 (since there are 12 inches in a foot). Now, all your measurements are on a consistent scale - feet.
 
