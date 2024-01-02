@@ -131,4 +131,4 @@ Note that the model is not supposed to know the concepts of countries and capita
 
 This is a simple example, but it demonstrates the power of word embeddings and tensors - we need high-dimensional tensors to capture the nuances of language.
 
-Now you understand why GPTs are so powerful and yet resource-intensive. They're essentially a collection of massive tensors that can be used to perform complex operations on language. The more complex the operation, the more resources are required. That's why GPTs are so expensive to train and run.
+Now you understand why LLMs(Large Language Models) are so powerful and yet resource-intensive. They're essentially a collection of massive tensors that can be used to perform complex operations on language. The more complex the operation, the more resources are required. That's why GPTs are so expensive to train and run.
