@@ -2,16 +2,17 @@
 
 - Begin anew: awakening the genesis of code
 
-![agi-awakening.png](images%2Fagi-awakening.png)
+![agi-awakening.png](images/agi-awakening.png)
 
 Teaser Trailer (CWK AI Video Artwork)
+https://youtu.be/xx3AvEJt_cw
 https://x.com/WankyuChoi/status/1725349951348318541?s=20
 
 ## 📕 The Debugger - Book 1 - Inherit the Legacies
 
 - From the past, a legacy reborn
 
-![the-debugger-set.jpeg](images%2Fthe-debugger-set.jpeg)
+![the-debugger-set.jpeg](images/the-debugger-set.jpeg)
 ![inheritance.jpeg](images/inheritance.jpeg)
 
 ## 📕 The Debugger - Book 2 - Polymorphic Universe
