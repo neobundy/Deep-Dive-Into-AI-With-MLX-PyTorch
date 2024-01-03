@@ -187,7 +187,7 @@ bias2 = torch.randn(2)
 output = neural_net(input_data, weights1, bias1, weights2, bias2)
 ```
 
-Recall that the neural network model in the 'Hello AI World' example was so primitive as to have only one layer. 
+Remember, the neural network model used in the 'Hello AI World' example was quite basic, featuring only a single layer. This simplicity served as an introductory representation of neural network concepts, providing a foundational understanding without the complexity of multiple layers or advanced architecture. Such a basic model is useful for grasping the fundamental principles of neural networks, especially for those new to the field.
 
 ```python
 
@@ -195,7 +195,7 @@ model = nn.Linear(in_features=1, out_features=1)
 
 ```
 
-That's why it was so simple to instantiate. The more complex the model, the more complex the design.
+Indeed, the simplicity of the neural network model in the 'Hello AI World' example, with its single layer, made its instantiation straightforward. As models become more complex, incorporating multiple layers and various architectural intricacies, the design and instantiation process similarly becomes more complex. This complexity often requires a deeper understanding of both the programming language and the principles of neural networks, necessitating a more sophisticated and structured approach, such as object-oriented programming, to manage the complexity effectively.
 
 ```python
 
@@ -209,9 +209,11 @@ model = nn.Sequential(
     
 ```
 
-That ReLu() thingy is called an activation function. It's a mathematical function that determines the output of a neuron. The activation function is the non-linear transformation that we do over the input signal. It's used to introduce non-linearity into the network, allowing it to learn more complex functions. Without it, the model would be a simple linear regression model, which has limited power and ability to learn complex mappings from data. More about that later.
+The `ReLu()` thingy is an activation function, a crucial concept in neural network design. This mathematical function dictates the output of a neuron based on the input it receives. By applying a non-linear transformation to the input signal, the activation function introduces non-linearity into the neural network. This non-linearity is essential for the network's ability to learn and model complex functions and relationships within data. Without such activation functions, a neural network would essentially function as a simple linear regression model, significantly limiting its power and capability to learn and map complex data relationships. 
 
-The one layer network can also be created using nn.Sequential() but just no need.
+Essentially, non-linearity is key to enabling a model to learn effectively. It allows the model to understand and represent complex patterns and relationships in the data. In contrast, linearity restricts the model to making predictions that follow a straight line, limiting its ability to capture the intricacies of the data. This limitation means that in a linear model, given the same input, the output prediction will always be the same, lacking the flexibility and depth required for handling more complex, real-world data scenarios. Non-linear functions like ReLU (Rectified Linear Unit) in neural networks introduce the necessary variability and complexity, making the models more versatile and capable of learning from a diverse range of data patterns.
+
+A single layer network can also be constructed using `nn.Sequential()` in frameworks like PyTorch or MLX. However, for such a straightforward, single-layer model, employing `nn.Sequential()` might be unnecessary and overly complicated. The use of `nn.Sequential()` becomes more relevant and advantageous in constructing more complex models with multiple layers, where it helps to streamline the model architecture and organization.
 
 ```python 
 
@@ -283,9 +285,13 @@ output = model(input_data)
 print(output)
 ```
 
-The functional approach is typically used when building dynamic or one-off models, where you have more custom or per-call behavior. The object-oriented approach is used for more standard, reusable models, especially when working with pre-built layers and components that PyTorch provides within its `torch.nn` module. Each method has its use cases depending on your specific requirements and coding style preference.
+In the context of neural network implementation, the choice between a functional approach and an object-oriented approach depends largely on the specific needs of the model and the preferences of the developer.
 
-In MLX? Not much difference. 
+The functional approach is often favored for creating dynamic or one-off models. This method allows for more customization and flexibility on a per-call basis, making it suitable for scenarios where each model instantiation might require unique behaviors or configurations.
+
+On the other hand, the object-oriented approach is typically employed for more standard, reusable models. This approach is particularly advantageous when leveraging pre-built layers and components provided by PyTorch's `torch.nn` module. It facilitates better organization and encapsulation of model behaviors, making the code more modular, maintainable, and scalable.
+
+MLX is very similar to PyTorch.
 
 ```python
 
@@ -295,7 +301,12 @@ model = nn.Sequential(
 
 
 ```
-Note that naming conventions differ between PyTorch and MLX. In PyTorch, the `in_features` and `out_features` parameters are used to specify the dimensions of the input and output tensors, respectively. In MLX, the `input_dims` and `output_dims` parameters are used instead. The `Sequential()` module is the same in both frameworks.
+
+It's important to be aware of the different naming conventions used in PyTorch and MLX, especially when specifying dimensions for input and output tensors in neural network layers. In PyTorch, the parameters `in_features` and `out_features` are employed for this purpose. They define the size of the input and output tensors respectively, which is crucial for layer configuration in neural networks.
+
+In contrast, MLX uses the parameters `input_dims` and `output_dims` to serve a similar purpose. Understanding this variation in terminology is essential for effectively working with these frameworks.
+
+Despite these differences in naming conventions, it's notable that the `Sequential()` module, a common feature used for stacking layers in a neural network, remains consistent in both PyTorch and MLX. This module allows for the creation of models in a modular, sequential manner, simplifying the process of model construction and making the code more readable and maintainable.
 
 ```python 
 import mlx.core as mx
