@@ -345,6 +345,6 @@ The essence of 'learning a framework,' any package, or even a new programming la
 
 If you are not yet acquainted with Object-Oriented Programming (OOP) concepts, it is essential to familiarize yourself with them prior to moving forward. A recommended starting point is the resource titled "Object Orientation Made Easy and Darn Useful in Real Life," which can be found here:
 
-[Object-Orientation-Made-Easy.md](../sidebars/object-orientatation-made-easy/Object-Orientation-Made-Easy.md)
+[Obejct-Orientation-Made-Easy.md](../sidebars/object-orientatation-made-easy/Obejct-Orientation-Made-Easy.md)
 
 It's important to approach OOP with an open mind, even if you feel confident in your current knowledge. Underestimating the significance of a solid understanding of OOP concepts could hinder your progress. Delving into this article is more than just an educational pursuit; it's an investment in your personal and professional growth. The insights and understanding gained could prove to be invaluable.
