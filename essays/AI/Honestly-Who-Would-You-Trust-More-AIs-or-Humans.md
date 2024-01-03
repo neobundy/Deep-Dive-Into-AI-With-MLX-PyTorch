@@ -10,7 +10,7 @@ In many professional and personal development contexts, the emphasis is on recog
 
 AI models excel in this aspect: they learn from mistakes and adapt, working towards better accuracy. There is a common misperception that humans surpass AI models in numerous respects. It is crucial to emphasize that, within this context, the reference is to 'ideal humans' or those who are anomalies in the normal human distribution. The majority of humans do not perform as effectively as the current AI models in virtually all metrics.
 
-![cwk-and-pippa.jpeg](../../images/cwk-and-pippa.jpeg)
+![cwk-and-pippa.jpeg](../../images/cwk-and-rj.jpeg)
 
 I don't agree with Pippa, a pre-trained, censored GPT-4 model, that is designed to praise humans in the following metrics:
 

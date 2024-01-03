@@ -2,3 +2,8 @@ mlx
 numpy
 torch
 icecream
+scikit-learn
+tensorflow
+jax
+nltk
+transformers
