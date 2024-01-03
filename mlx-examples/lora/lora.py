@@ -95,7 +95,7 @@ def build_parser():
     parser.add_argument(
         "--adapter-file",
         type=str,
-        default="adapters.npz",
+        default="adapters_backup_module_name_in_answer.npz",
         help="Save/load path for the trained adapter weights.",
     )
     parser.add_argument(
@@ -324,7 +324,7 @@ def generate(model, prompt, tokenizer, args):
         if (len(tokens) % 10) == 0:
             mx.eval(tokens)
             s = tokenizer.decode([t.item() for t in tokens])
-            print(s, end="", flush=True)
+            print(s, flush=True)
             tokens = []
 
     mx.eval(tokens)
