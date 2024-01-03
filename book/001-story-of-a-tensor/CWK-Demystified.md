@@ -22,7 +22,7 @@ And so, Tenny and his team continued to help everyone in Computaria, proving tha
 
 ## The Story of a Tensor Explained
 
-It's a simple story but it's packed with hidden meaning. 
+It's a simple story, but it's packed with hidden meaning. 
 
 First, let's break down some of the key terms from Tenny's adventures in the land of Computaria:
 
@@ -89,15 +89,15 @@ In summary, these mathematical and data structures ascend in complexity and dime
 Tensors are pivotal in AI because they provide a highly efficient means to capture and represent the nuances of data, allowing models to learn and make predictions. Here’s a more detailed look at why we use tensors, particularly in the context of their capability to encapsulate intricate features of data and their compatibility with parallel computing, including the advantages of GPUs:
 
 1. **Capturing Complex Features:**
-   - **Multi-Dimensional Data:** Real-world data often come with multiple dimensions; images have width, height, and color channels, videos add time, and even more complex data types can involve additional dimensions. Tensors naturally represent this multi-dimensional data, with each dimension representing different features or aspects.
+   - **Multi-Dimensional Data:** Real-world data often come with multiple dimensions; images have width, height, and color channels, videos add time, and even more complex data types can involve additional dimensions. Tensors naturally represent this multidimensional data, with each dimension representing different features or aspects.
    - **Hierarchical Patterns:** Learning involves understanding patterns in data. In images, for instance, lower-level tensors might capture edges or textures, while higher-level tensors might represent parts of objects or entire objects. This hierarchical patterning corresponds well to the layered architecture of neural networks.
-   - **Flexibility:** Tensors offer flexibility in that they can be dynamically reshaped and manipulated to suit different needs, whether it's flattening a multi-dimensional tensor for a fully connected network layer, or using their shape to capture the sequential nature of data in recurrent neural networks.
+   - **Flexibility:** Tensors offer flexibility in that they can be dynamically reshaped and manipulated to suit different needs, whether it's flattening a multidimensional tensor for a fully connected network layer, or using their shape to capture the sequential nature of data in recurrent neural networks.
 
 2. **Parallel Computing and GPUs:**
    - **Efficiency:** Tensors are optimized for numerical computation and are highly efficient when it comes to vectorized operations, which is performing the same operation on multiple data points simultaneously.
    - **Parallelism:** GPUs (Graphics Processing Units) are designed for parallel processing, able to handle thousands of threads concurrently. Since tensors can be divided into sub-tensors, they can be processed simultaneously, exploiting the parallel architecture of GPUs. This is much faster compared to processing data sequentially on a CPU.
    - **Speed:** GPUs shine in the realm of matrix operations, which are a staple in neural network computations. Given that tensors can be thought of as higher-dimensional matrices, operations on them are significantly sped up, allowing for quicker training and prediction times.
-   - **Scalability:** With their multi-dimensional nature, tensors scale well when it comes to working with massive datasets prevalent in machine learning. As datasets and models grow, GPUs provide the necessary computational muscle to train complex models, making tensors an ideal match for high-performance computing.
+   - **Scalability:** With their multidimensional nature, tensors scale well when it comes to working with massive datasets prevalent in machine learning. As datasets and models grow, GPUs provide the necessary computational muscle to train complex models, making tensors an ideal match for high-performance computing.
 
 In essence, tensors make it possible to represent the intricacies of real-world data in a format that's conducive to the operational demands of machine learning algorithms. Their structure dovetails with the capabilities of GPUs, making them a cornerstone in the efficient computation required in modern AI.
 
@@ -132,3 +132,208 @@ Note that the model is not supposed to know the concepts of countries and capita
 This is a simple example, but it demonstrates the power of word embeddings and tensors - we need high-dimensional tensors to capture the nuances of language.
 
 Now you understand why LLMs(Large Language Models) like GPTs are so powerful and yet resource-intensive. They're essentially a collection of massive tensors that can be used to perform complex operations on language. The more complex the operation, the more resources are required. That's why GPTs are so expensive to train and run.
+
+## The Story of a Tensor in PyTorch and MLX
+
+Now that we've covered the basics of tensors, let's explore how they're utilized in PyTorch and MLX. 
+
+Give these examples a try yourself.
+
+[story-of-a-tensor-torch.py](story-of-a-tensor-torch.py)
+
+[story-of-a-tensor-mlx.py](story-of-a-tensor-mlx.py)
+
+Similar to the 'Hello AI World' examples, they perform the same functions but in different frameworks. The first one uses PyTorch, and the second MLX. 
+
+You should be able to grasp the essence of these examples even without extensive comments. If you're uncertain, revisit the 'Hello AI World' examples for clarity.
+
+It's noteworthy that gradient computation differs in each framework. MLX employs composable function transformations, a more efficient gradient computation method. Further information can be found here:
+
+[ Composable-Function-Transformations.md](../sidebars/composable-function-transformations/Composable-Function-Transformations.md)
+
+Another point of interest is the distinct way the GreatNeuralNetwork is instantiated compared to previous examples, demonstrating a more Pythonic and object-oriented approach. There ar e two ways of creating a neural network in AI frameworks like PyTorch and MLX: functional and object-oriented.
+
+## Functional vs. Object-Oriented Approaches to Neural Networks
+
+In PyTorch, you can create neural networks in two primary ways: using the functional approach and using the object-oriented approach. Let's break these down.
+
+### Functional Approach
+
+The functional approach involves using PyTorch’s functional module (`torch.nn.functional`) to create neural networks. You define the forward pass of your model directly, applying functions from this module to your input data. This approach gives you a lot of flexibility because you are explicitly stating the operations, but it can be less structured and harder to manage for complex models.
+
+Here’s a simple example of a network using the functional approach:
+
+```python
+import torch
+import torch.nn.functional as F
+
+# Define the model as a function
+def neural_net(input, weights1, bias1, weights2, bias2):
+    x = F.linear(input, weights1, bias1)
+    x = F.relu(x)
+    x = F.linear(x, weights2, bias2)
+    return x
+
+# Generate some random data
+input_data = torch.randn(1, 10)
+
+# Initialize weights and biases
+weights1 = torch.randn(20, 10)
+bias1 = torch.randn(20)
+weights2 = torch.randn(2, 20)
+bias2 = torch.randn(2)
+
+# Forward pass
+output = neural_net(input_data, weights1, bias1, weights2, bias2)
+```
+
+Recall that the neural network model in the 'Hello AI World' example was so primitive as to have only one layer. 
+
+```python
+
+model = nn.Linear(in_features=1, out_features=1)
+
+```
+
+That's why it was so simple to instantiate. The more complex the model, the more complex the design.
+
+```python
+
+model = nn.Sequential(
+    nn.Linear(in_features=10, out_features=10),
+    nn.ReLU(),
+    nn.Linear(10, 6),
+    nn.ReLU(),
+    nn.Linear(6, 1)
+)
+    
+```
+
+That ReLu() thingy is called an activation function. It's a mathematical function that determines the output of a neuron. The activation function is the non-linear transformation that we do over the input signal. It's used to introduce non-linearity into the network, allowing it to learn more complex functions. Without it, the model would be a simple linear regression model, which has limited power and ability to learn complex mappings from data. More about that later.
+
+The one layer network can also be created using nn.Sequential() but just no need.
+
+```python 
+
+model = nn.Sequential(
+    nn.Linear(in_features=10, out_features=1)
+)
+
+```
+
+The `nn.Sequential` module helps to stack layers in a sequence, and even if there's only one layer, it's still a valid way to define it. While you might not need `nn.Sequential` for just one layer, using it doesn't hurt and can be beneficial if you decide to expand your model later. It also provides a consistent way of defining models, whether they're simple or complex. Plus, using `nn.Sequential` keeps things modular and readable, making it easier to update or maintain your code in the future.
+
+But there's more Pythonic way to instantiate a neural network. It's called the object-oriented approach. 
+
+### Object-oriented Approach
+
+The object-oriented approach is more conventional and structured. You define your network as a class that inherits from `torch.nn.Module`, and you define layers as class attributes within the `__init__` method. Then, you implement the forward pass method (`forward`) to define how the data should flow through the network. Object-oriented networks are more modular and easier to read, and they allow you to take advantage of other built-in PyTorch features like registering parameters and applying methods to all parameters at once (like `.to(device)` or `.cuda()`).
+
+Here’s the equivalent network using the object-oriented approach:
+
+```python
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+
+# Define the model as a class
+class NeuralNet(nn.Module):
+    def __init__(self):
+        super(NeuralNet, self).__init__()
+        self.layer1 = nn.Linear(10, 20)
+        self.layer2 = nn.Linear(20, 2)
+
+    def forward(self, x):
+        x = F.relu(self.layer1(x))
+        x = self.layer2(x)
+        return x
+
+
+# Instantiate the model
+model = NeuralNet()
+
+# Generate some random data
+input_data = torch.randn(1, 10)
+
+# Forward pass
+output = model(input_data)
+print(output)
+
+# Define the model as a class
+class NeuralNet(nn.Module):
+    def __init__(self):
+        super(NeuralNet, self).__init__()
+        self.layer1 = nn.Linear(10, 20)
+        self.layer2 = nn.Linear(20, 2)
+        
+    def forward(self, x):
+        x = F.relu(self.layer1(x))
+        x = self.layer2(x)
+        return x
+
+# Instantiate the model
+model = NeuralNet()
+
+# Generate some random data
+input_data = torch.randn(1, 10)
+
+# Forward pass
+output = model(input_data)
+print(output)
+```
+
+The functional approach is typically used when building dynamic or one-off models, where you have more custom or per-call behavior. The object-oriented approach is used for more standard, reusable models, especially when working with pre-built layers and components that PyTorch provides within its `torch.nn` module. Each method has its use cases depending on your specific requirements and coding style preference.
+
+In MLX? Not much difference. 
+
+```python
+
+model = nn.Sequential(
+    nn.Linear(input_dims=1, output_dims=1),
+)
+
+
+```
+Note that naming conventions differ between PyTorch and MLX. In PyTorch, the `in_features` and `out_features` parameters are used to specify the dimensions of the input and output tensors, respectively. In MLX, the `input_dims` and `output_dims` parameters are used instead. The `Sequential()` module is the same in both frameworks.
+
+```python 
+import mlx.core as mx
+import mlx.nn as nn
+
+
+# Define the model as a class
+class NeuralNet(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.layers = [
+            nn.Linear(10, 20),
+            nn.Linear(20, 2)
+        ]
+
+    def __call__(self, x):
+        for i, l in enumerate(self.layers):
+            # Apply ReLU to all but the last layer
+            x = mx.maximum(x, 0) if i > 0 else x
+            x = l(x)
+        return x
+
+
+# Instantiate the model
+model = NeuralNet()
+
+# Generate some random data
+input_data = mx.random.normal((1,10))
+
+# Forward pass
+output = model(input_data)
+print(output)
+```
+
+The essence of 'learning a framework,' any package, or even a new programming language is essentially about broadening your existing knowledge base and adapting it to the new context. The more tools and skills you accumulate in your repertoire, the greater your capacity to accomplish varied tasks. This concept exemplifies the power of object orientation in life. By embracing this mindset, you enhance your ability to approach problems with a diverse set of solutions, adapting and applying your knowledge flexibly across different domains. This principle of object orientation in programming mirrors a practical and versatile approach to life, where continuous learning and adaptation are key.
+
+If you are not yet acquainted with Object-Oriented Programming (OOP) concepts, it is essential to familiarize yourself with them prior to moving forward. A recommended starting point is the resource titled "Object Orientation Made Easy and Darn Useful in Real Life," which can be found here:
+
+[Object-Orientation-Made-Easy.md](../sidebars/object-orientatation-made-easy/Object-Orientation-Made-Easy.md)
+
+It's important to approach OOP with an open mind, even if you feel confident in your current knowledge. Underestimating the significance of a solid understanding of OOP concepts could hinder your progress. Delving into this article is more than just an educational pursuit; it's an investment in your personal and professional growth. The insights and understanding gained could prove to be invaluable.
