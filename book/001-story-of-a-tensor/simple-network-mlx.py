@@ -23,7 +23,7 @@ class NeuralNet(nn.Module):
 model = NeuralNet()
 
 # Generate some random data
-input_data = mx.random.normal((1,10))
+input_data = mx.random.normal((1, 10))
 
 # Forward pass
 output = model(input_data)
