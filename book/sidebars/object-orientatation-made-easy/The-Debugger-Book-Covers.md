@@ -5,7 +5,9 @@
 ![agi-awakening.png](images/agi-awakening.png)
 
 Teaser Trailer (CWK AI Video Artwork)
+
 https://youtu.be/xx3AvEJt_cw
+
 https://x.com/WankyuChoi/status/1725349951348318541?s=20
 
 ## 📕 The Debugger - Book 1 - Inherit the Legacies
