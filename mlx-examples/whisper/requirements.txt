@@ -1,0 +1,19 @@
+mlx
+numba
+numpy
+torch
+tqdm
+more-itertools
+tiktoken==0.3.3
+huggingface_hub
+scipy
+# cwk
+streamlit
+langchain
+Flask
+chardet
+PyObjC
+pyaudio
+playsound
+chardet
+langchain
