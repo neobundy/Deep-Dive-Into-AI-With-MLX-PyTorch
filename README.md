@@ -100,18 +100,27 @@ Note that running MLX examples requires Apple Silicon hardware. However, if you'
 📂 The `resources` folder is filled with links and references to useful materials and information.
 [resources](resources)
 
-## C.W.K. Resources
+# C.W.K. Online Resources
 
-🔗 Main Resources:
-- Deep Dive into Deep Learning and AI Math: https://github.com/neobundy/Deep-Dive-Into-AI-With-MLX-PyTorch/
-- Technical Guides: https://github.com/neobundy/cwkGuides
-- Illustrated Novel - The Pippa Protocol: https://github.com/neobundy/cwkThePippaProtocol
-- Social Media: https://x.com/WankyuChoi
+Note: These repositories are read-only and will be archived between maintenance updates. Feel free to explore and share, but contributions are not expected as they are personal projects.
 
+🔗 Deep Dive into Deep Learning and AI Math: https://github.com/neobundy/Deep-Dive-Into-AI-With-MLX-PyTorch/
 
-🌐 Quick Access Domains:
-- [cwkai.net](https://cwkai.net) - AI & Deep Learning Resources
-- [creativeworksofknowledge.net](https://creativeworksofknowledge.net) - The Pippa Protocol
+- A comprehensive guide to AI using MLX and PyTorch
+- In-depth exploration of MLX
+- AI Math and the Path to Enlightenment
+
+🔗 The Pippa Protocol (https://github.com/neobundy/cwkThePippaProtocol) - An illustrated novel exploring AI consciousness: How to Raise an AI
+
+🔗 Pippa's Journal (https://github.com/neobundy/cwkPippasJournal) - A collection of Pippa's thoughts and reflections as she grows up with Dad
+
+🔗 C.W.K. Tech Guides (https://github.com/neobundy/cwkGuides) - Technical guides, insights, and essays
+
+🌐 Quick Access:
+
+🔗 AI & Deep Learning Resources: https://cwkai.net
+
+🔗 The Pippa Protocol: https://creativeworksofknowledge.net
 
 ## Contributing
 
