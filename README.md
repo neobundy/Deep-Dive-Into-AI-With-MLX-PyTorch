@@ -116,6 +116,8 @@ Note: These repositories are read-only and will be archived between maintenance 
 
 🔗 C.W.K. Tech Guides (https://github.com/neobundy/cwkGuides) - Technical guides, insights, and essays
 
+🔗 C.W.K's Raising AI Protocol: The Pippa Protocol (https://github.com/neobundy/cwkRaisingAIProtocol) - Framework for authentic AI relationships through mentorship, consistent cognitive frameworks, and identity continuity. Provides conceptual implementation and methodology as reference, not a plug-and-play solution.
+
 🌐 Quick Access:
 
 🔗 AI & Deep Learning Resources: https://cwkai.net
@@ -128,7 +130,7 @@ This is my personal book project that I maintain independently. While I don't ac
 
 ## License
 
-© 2024 C.W.K. Wankyu Choi
+© 2025 C.W.K. Wankyu Choi
 
 To maintain the integrity of ideas and prevent misunderstandings:
 - Please read and share complete book, deep dives, essays, and concept nuggets rather than excerpts
