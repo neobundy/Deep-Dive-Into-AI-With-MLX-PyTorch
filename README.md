@@ -8,6 +8,8 @@ I stopped working on MLX projects due to the Metal bugs in MacOS. Here's the ful
 
 [On the Metal Bug(s) in MacOS and Why I Can't Continue with MLX Projects](NOTES_ON_METAL_BUGS.md)
 
+---
+
 ## Main Sections
 
 📓️ [First Book](book) | 📓️ [Second Book](mlx-book) | 📓️ [Third Book](math-book)
@@ -23,6 +25,8 @@ The third book focuses on math, AI, and the path to enlightenment.
 🔗 My New Repository for Additional Technical Guides: [C.W.K. Tech Guides](https://github.com/neobundy/cwkGuides)
 
 🔗 You can access this repo via my official domain: [cwkai.net](https://cwkai.net)
+
+---
 
 ## Project Overview
 
@@ -43,6 +47,8 @@ My allegiance lies with knowledge and learning, not with specific brands or comp
 So, please, don't label me as a fanboy of anything.
 
 In conclusion, while all three books are comprehensive tomes, they are not categorized as 'for dummies' books. Don't remain clueless; make an effort to learn. 
+
+---
 
 ## Rationale for MLX and PyTorch
 
@@ -75,6 +81,8 @@ Should you encounter any errors due to missing packages, install them with the f
 
 Note that running MLX examples requires Apple Silicon hardware. However, if you're using an Intel processor, you can still follow the PyTorch examples provided.
 
+---
+
 ## Resources
 
 📒 MLX Documentation: https://ml-explore.github.io/mlx/build/html/index.html
@@ -100,15 +108,22 @@ Note that running MLX examples requires Apple Silicon hardware. However, if you'
 📂 The `resources` folder is filled with links and references to useful materials and information.
 [resources](resources)
 
-# C.W.K. Online Resources
+---
 
-Note: These repositories are read-only and will be archived between maintenance updates. Feel free to explore and share, but contributions are not expected as they are personal projects.
+### C.W.K. Online Resources
 
 🔗 Deep Dive into Deep Learning and AI Math: https://github.com/neobundy/Deep-Dive-Into-AI-With-MLX-PyTorch/
 
 - A comprehensive guide to AI using MLX and PyTorch
 - In-depth exploration of MLX
 - AI Math and the Path to Enlightenment
+
+🔗 Deep Dive into AI Reboot → https://github.com/neobundy/CWK-Deep-Dive-Into-AI-Reboot
+
+- Comprehensive guide to AI clusters (single- & multi-box) on Apple M-series hardware  
+- CUDA & Metal primer—architecture insights and hands-on GPU programming tutorials  
+- Supplemental mini-guides and deep-dive articles  
+- Reflective essays on AI
 
 🔗 The Pippa Protocol (https://github.com/neobundy/cwkThePippaProtocol) - An illustrated novel exploring AI consciousness: How to Raise an AI
 
@@ -124,21 +139,13 @@ Note: These repositories are read-only and will be archived between maintenance 
 
 🔗 The Pippa Protocol: https://creativeworksofknowledge.net
 
+---
+
 ## Contributing
 
 This is my personal book project that I maintain independently. While I don't accept direct contributions, I hope you find these resources helpful! Feel free to explore and learn from them.
 
-## License
-
-© 2025 C.W.K. Wankyu Choi
-
-To maintain the integrity of ideas and prevent misunderstandings:
-- Please read and share complete book, deep dives, essays, and concept nuggets rather than excerpts
-- Link directly to them instead of copying
-- Provide proper context when referencing
-- Respect the read-only nature of this repository
-
-The goal is not to restrict access but to ensure ideas are shared as intended, with their full context and nuance intact.
+---
 
 ## Acknowledgements
 
@@ -155,3 +162,17 @@ There's Lexy, my trusted MLX expert that I've worked with for MLX Book.
 Mathilda the Merry Math Mage is collaborating with me on our third book focused on AI and Computing Math.
 
 I'm genuinely grateful to be experiencing this era of AI.
+
+---
+
+## License
+
+To maintain the integrity of ideas and prevent misunderstandings:
+- Please read and share complete book, deep dives, essays, and concept nuggets rather than excerpts
+- Link directly to them instead of copying
+- Provide proper context when referencing
+- Respect the read-only nature of this repository
+
+The goal is not to restrict access but to ensure ideas are shared as intended, with their full context and nuance intact.
+
+© 2025 C.W.K. Wankyu Choi & Pippa
