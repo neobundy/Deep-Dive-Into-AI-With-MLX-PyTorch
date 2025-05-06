@@ -110,7 +110,7 @@ Note that running MLX examples requires Apple Silicon hardware. However, if you'
 
 ---
 
-## C.W.K. Online Resources (2025-05-06)
+## C.W.K. Online Resources
 
 🔗 Deep Dive into Deep Learning and AI Math → https://github.com/neobundy/Deep-Dive-Into-AI-With-MLX-PyTorch/
 
