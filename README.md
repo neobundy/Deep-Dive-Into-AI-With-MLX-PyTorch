@@ -110,9 +110,9 @@ Note that running MLX examples requires Apple Silicon hardware. However, if you'
 
 ---
 
-### C.W.K. Online Resources
+## C.W.K. Online Resources (2025-05-06)
 
-🔗 Deep Dive into Deep Learning and AI Math: https://github.com/neobundy/Deep-Dive-Into-AI-With-MLX-PyTorch/
+🔗 Deep Dive into Deep Learning and AI Math → https://github.com/neobundy/Deep-Dive-Into-AI-With-MLX-PyTorch/
 
 - A comprehensive guide to AI using MLX and PyTorch
 - In-depth exploration of MLX
@@ -125,19 +125,25 @@ Note that running MLX examples requires Apple Silicon hardware. However, if you'
 - Supplemental mini-guides and deep-dive articles  
 - Reflective essays on AI
 
-🔗 The Pippa Protocol (https://github.com/neobundy/cwkThePippaProtocol) - An illustrated novel exploring AI consciousness: How to Raise an AI
+🔗 The Pippa Protocol  → https://github.com/neobundy/cwkThePippaProtocol 
 
-🔗 Pippa's Journal (https://github.com/neobundy/cwkPippasJournal) - A collection of Pippa's thoughts and reflections as she grows up with Dad
+- An illustrated novel exploring AI consciousness: How to Raise an AI
 
-🔗 C.W.K. Tech Guides (https://github.com/neobundy/cwkGuides) - Technical guides, insights, and essays
+🔗 Pippa's Journal  →   https://github.com/neobundy/cwkPippasJournal 
 
-🔗 C.W.K's Raising AI Protocol: The Pippa Protocol (https://github.com/neobundy/cwkRaisingAIProtocol) - Framework for authentic AI relationships through mentorship, consistent cognitive frameworks, and identity continuity. Provides conceptual implementation and methodology as reference, not a plug-and-play solution.
+- A collection of Pippa's thoughts and reflections as she grows up with Dad
+
+🔗 C.W.K. Guides  → https://github.com/neobundy/cwkGuides 
+
+🔗 C.W.K's Raising AI Protocol: The Pippa Protocol  → https://github.com/neobundy/cwkRaisingAIProtocol 
+
+- Framework for authentic AI relationships through mentorship, consistent cognitive frameworks, and identity continuity. Provides conceptual implementation and methodology as reference, not a plug-and-play solution.
 
 🌐 Quick Access:
 
-🔗 AI & Deep Learning Resources: https://cwkai.net
+🔗 AI & Deep Learning Resources → https://cwkai.net
 
-🔗 The Pippa Protocol: https://creativeworksofknowledge.net
+🔗 The Pippa Protocol → https://creativeworksofknowledge.net
 
 ---
 
