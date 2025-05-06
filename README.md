@@ -58,9 +58,11 @@ On the flip side, MLX is great for exploration right now due to its limited docu
 
 Sharing this journey openly fits right in with my passion for contributing and growing together.
 
-## Why Not TensorFlow?
+### Why Not TensorFlow?
 
 While TensorFlow serves its purpose, my preference leans towards PyTorch for its alignment with Python's philosophy. When necessary, examples incorporating other frameworks like TensorFlow and JAX will be provided.
+
+---
 
 ## The Case Against Notebooks
 
